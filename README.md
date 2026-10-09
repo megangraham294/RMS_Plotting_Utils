@@ -1,10 +1,10 @@
 # Bat acoustic activity plots
 
-`plot_sites.R` makes one figure per site showing nightly RMS amplitude from the acoustic detector (left axis) with a GAM trend line, and manual bat counts (right axis) overlaid on the same panel. Output is sized for a poster.
+`plot_sites.R` makes one figure per site showing nightly RMS amplitude from the acoustic detector (left axis) with a GAM trend line, and manual bat counts (right axis) overlaid on the same panel. Output is sized for a poster. Small black circles are nightly RMS amplitude. The blue line is a GAM fit to those values with a grey 95% confidence band. Red circles are manual bat counts, labeled with the count. The right axis reads in bat-count units.
 
-![Example output: Willard Pond Barn, 2026](example/Willard_Pond_Barn_2026.png)
+<img src="example/Willard_Pond_Barn_1.png" alt="Example output: Willard Pond Barn, 2026" width="600">
 
-Small black circles are nightly RMS amplitude. The blue line is a GAM fit to those values with a grey 95% confidence band. Red circles are manual bat counts, labeled with the count. The right axis reads in bat-count units.
+
 
 ## Requirements
 
